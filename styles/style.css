@@ -1,0 +1,15 @@
+button:hover {
+    box-shadow: 0 0 5px black;
+}
+
+[data-rolltype=default]:hover {
+    box-shadow: unset;
+}
+
+[data-rolltype=advantage]:hover {
+    box-shadow: 0 0 5px green;
+}
+
+[data-rolltype=disadvantage]:hover {
+    box-shadow: 0 0 5px red;
+}
