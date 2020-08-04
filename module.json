@@ -1,7 +1,7 @@
 {
-    "name": "minor-ux-dev",
-    "title": "Minor UX improvements (DEV)",
-    "description": "DEVELOPMENT VERSION, DO NOT USE. Minor UX tweaks to things.",
+    "name": "minor-ux",
+    "title": "Minor UX improvements",
+    "description": "Minor UX tweaks to things.",
     "author": "didii",
     "version": "0.0.1",
     "minimumCoreVersion": "0.5.0",
@@ -10,10 +10,9 @@
       "./scripts/highlight.js"
     ],
     "styles": [
-      "./styles/calendar.css",
-      "./styles/highlight.css"
+      "./styles/style.css"
     ],
     "url": "https://github.com/didii/foundryvtt-minor-ux",
     "manifest": "https://raw.githubusercontent.com/didii/foundryvtt-minor-ux/master/module.json",
-    "download": "https://github.com/didii/foundryvtt-minor-ux/releases/download/0.0.1/foundryvtt-minor-ux.zip"
+    "download": "https://github.com/didii/foundryvtt-minor-ux/releases/download/0.0.1/minor-ux.zip"
 }
