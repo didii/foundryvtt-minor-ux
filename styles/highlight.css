@@ -13,3 +13,13 @@ button:hover {
 [data-rolltype=disadvantage]:hover {
     box-shadow: 0 0 5px red;
 }
+
+.actor .item-image {
+    border: 1px solid transparent;
+}
+.actor .item-image[data-rolltype=advantage]:hover {
+    border-color: green;
+}
+.actor .item-image[data-rolltype=disadvantage]:hover {
+    border-color: red;
+}
